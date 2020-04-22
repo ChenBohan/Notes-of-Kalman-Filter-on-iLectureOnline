@@ -37,3 +37,9 @@ K[k] = P[k] * H[T] / H * P[k] * H[T] + R
 - K
   - KG
   - Weight factor based on comparing the error in the estimate to the error in the measurement
+
+### Lecture 23: Finding The Covariance Matrix, Numerical Example
+
+- Deviation matrix: a = A - I * A * 1 / num
+
+- Covariance matrix = a[T] * a
