@@ -50,3 +50,21 @@ K[k] = P[k] * H[T] / H * P[k] * H[T] + R
   - usually we start out by simply giving them some initial reasonable value
 - Transformation matrix H
   - Transform the format of matrix P to the format of KG matrix
+
+### Lecture 27: 1. The Predicted State - Tracking Airplane
+
+- Matrix A
+  - update the state (position and velocity) based upon delta T
+- Matrix B
+  - translate the acceleration to the state
+  
+### Lecture 28: 2. Initial Process Covariance - Tracking Airplane
+
+-  Process covariance matrix P
+  - can set the cross terms to zero to simplify if there is no specific relationship between the uncertainty in the position and velocity (we often do this in tracking)
+  - in every cycle, we can ignore the cross terms agian.
+  
+### Lecture 31: 5. The New Observation - Tracking Airplane
+
+-  Matrix C
+  - Trasform observe matrix to state matrix
