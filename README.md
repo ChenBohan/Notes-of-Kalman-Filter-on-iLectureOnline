@@ -43,3 +43,10 @@ K[k] = P[k] * H[T] / H * P[k] * H[T] + R
 - Deviation matrix: a = A - I * A * 1 / num
 
 - Covariance matrix = a[T] * a
+
+### Lecture 26: Flow Chart Of 2-D Kalman Filter - Tracking Airplane
+
+- Process errors in process covariance matrix
+  - usually we start out by simply giving them some initial reasonable value
+- Transformation matrix H
+  - Transform the format of matrix P to the format of KG matrix
